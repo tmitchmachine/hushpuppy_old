@@ -1,0 +1,39 @@
+{
+  "name": "hushpuppy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@project-serum/anchor": "^0.26.0",
+    "@pythnetwork/client": "^2.22.1",
+    "@solana/spl-token": "^0.4.12",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-phantom": "^0.9.24",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/web3.js": "^1.98.0",
+    "axios": "^1.7.9",
+    "bs58": "^6.0.0",
+    "cors": "^2.8.5",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.0.0",
+    "rate-limiter-flexible": "^5.0.5",
+    "redis": "^4.7.0",
+    "socket.io-client": "^4.8.1",
+    "websocket": "^1.0.35",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@types/node": "^22.13.4",
+    "@types/react": "^18.3.18",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.22.18",
+    "typescript": "^5.7.3"
+  }
+}
